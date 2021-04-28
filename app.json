@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/update/index",
+    "pages/delete/index",
+    "pages/add/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
+  },"tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff2d4a",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "价格计算",
+        "iconPath": "/icons/计算.png",
+        "selectedIconPath": "/icons/计算Active.png"
+      },
+      {
+        "pagePath": "pages/update/index",
+        "text": "价格更新",
+        "iconPath": "/icons/更新.png",
+        "selectedIconPath": "/icons/更新Active.png"
+      },
+      {
+        "pagePath": "pages/delete/index",
+        "text": "商品删除",
+        "iconPath": "/icons/删除.png",
+        "selectedIconPath": "/icons/删除Active.png"
+      },
+      {
+        "pagePath": "pages/add/index",
+        "text": "商品添加",
+        "iconPath": "/icons/添加.png",
+        "selectedIconPath": "/icons/添加Active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

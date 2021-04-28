@@ -1,0 +1,23 @@
+.title {
+  margin: 30% auto 5% auto;
+  font-weight: bold;
+  text-align: center;
+  font-size: 36rpx;
+}
+.add_message_wrap {
+  width: 60%;
+  margin: 0  auto;
+}
+.add_message_wrap .add_title {
+  margin: 30rpx;
+  padding: 11rpx;
+  border: 1px solid #ccc;
+}
+.add_message_wrap .add_price {
+  margin: -15rpx 30rpx 30rpx 30rpx;
+  padding: 11rpx;
+  border: 1px solid #ccc;
+}
+.add_message_wrap button {
+  margin: 30rpx;
+}

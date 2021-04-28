@@ -1,0 +1,15 @@
+<view class="goods_item_wrap">
+  <view class="intro_title">
+    <text class="goods_intro__num">序号</text>
+    <text class="goods_intro_title">商品名称</text>
+    <text class="goods_intro_nuit_price"></text>
+  </view>
+  <view class="goods"
+  wx:for="{{goods}}"
+  wx:key="goods_name"
+  >
+    <view class="goods_index">{{index+1}}</view>
+    <view class="goods_name">{{item.goods_name}}</view>
+    <button bindtap="handleGoodsDelete" data-id="{{item._id}}" data-index="{{index}}" class="goods_delete" type="primary">删除</button>
+  </view>
+</view>

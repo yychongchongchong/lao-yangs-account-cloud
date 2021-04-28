@@ -1,0 +1,6 @@
+<view class="title">商品信息添加</view>
+<view class="add_message_wrap">
+    <input class="add_title" bindinput="handleInputName" placeholder="请输入商品的名称"></input>
+    <input class="add_price" bindinput="handleInputPrice" placeholder="请输入商品的单价"></input>
+    <button bindtap="handleAddGoods" type="primary">添加</button>
+</view>
